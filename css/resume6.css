@@ -30,10 +30,77 @@ aside {
     padding: 25px;
 }
 footer {
-   text-align: center;
+    text-align: center;
     color: #ffffff;
     background-color: #3F4A3C;
 }
 
+.wrapper .socialMedia {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    margin: 0 10px;
+    border-radius: 50px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 0.3s ease-out;
+}
 
+.wrapper .socialMedia:hover {
+    width: 200px;
+}
+
+.wrapper .socialMedia span {
+    font-size: 20px;
+    height: 60px;
+    /* line-height: 60px; */
+    font-weight: 500;
+    transition: all 0.3s ease-out;
+    margin-left: 10px;
+
+}
+
+.wrapper .socialMedia .icon i {
+    font-size: 30px;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+
+}
+
+.wrapper .socialMedia .icon {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    border-radius: 50px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 30px;
+    transition: all 0.3s ease-out;
+
+}
+
+.wrapper .socialMedia:hover {
+    background-color: #fff;
+}
+
+.wrapper .socialMedia:nth-child(1):hover .icon{
+    background-color: #1877f2;
+}
+.wrapper .socialMedia:nth-child(2):hover .icon{
+    background-color: #171515;
+}
+.wrapper .socialMedia:nth-child(3):hover .icon{
+    background-color: #c32aa3;
+}
+
+.wrapper .socialMedia:nth-child(1):hover span{
+    color: #1877f2;
+}
+.wrapper .socialMedia:nth-child(2):hover span{
+    color: #171515;
+}
+.wrapper .socialMedia:nth-child(3):hover span{
+    color: #c32aa3;
+}
 
